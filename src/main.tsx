@@ -10,9 +10,9 @@ createRoot(document.getElementById("root")!).render(
   <AuthProvider>
     <BrowserRouter>
       <Routes>
-        <Route path="login" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route
-          path="dashboard"
+          path="/"
           element={
             <ProtectedRoute>
               <Dashboard />

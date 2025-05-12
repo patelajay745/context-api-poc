@@ -14,7 +14,7 @@ export const Login = () => {
   const handleClick = () => {
     console.log("clicked");
     login(dummyUser);
-    navigate("/dashboard");
+    navigate("/");
   };
 
   return (
